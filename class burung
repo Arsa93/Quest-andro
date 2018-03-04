@@ -1,0 +1,28 @@
+**
+ * Write a description of class burung here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class burung extends aksiburung
+{
+    // Variabel/atribut burung
+    String nama;
+    int stamina;
+    
+    //method (aksi yang bisa dilakukan burung)
+    
+    void terbang(){ //method terbang mengurangi nilai stamina
+        stamina--;
+        System.out.println(nama+" sedang terbang...");
+        System.out.println("Stamina berkurang.");
+        System.out.println("Stamina : "+stamina); 
+    }
+    
+    void makan(){//method makan menambahkan nilai stamina 
+        System.out.println(nama+" sedang makan...");
+        stamina++;
+        System.out.println("Stamina bertambah.");
+        System.out.println("Stamina : "+stamina);
+    }   
+}
