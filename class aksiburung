@@ -1,0 +1,18 @@
+public class aksiburung
+{
+  public static void main (String[]args) {
+    
+      burung burung = new burung();
+      
+      burung.nama= "BlueJ";
+      burung.stamina= 2;
+    
+      if (burung.stamina > 0){
+      burung.terbang();
+    }else{
+      System.out.println(burung.nama+" Tidak punya stamina yang cukup untuk terbang");
+      burung.makan();
+    }
+}
+        
+}
